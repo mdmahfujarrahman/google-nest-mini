@@ -3,13 +3,14 @@ import "./Home.css";
 import BackgroundVideo from "../../video/background.mp4";
 import useReviews from "../../hooks/useReviews";
 import Review from "../Review/Review";
+import { Link } from "react-router-dom";
 
 const Home = () => {
     const [reviews, setReviews] = useReviews();
     const firstThreeReview = reviews.slice(0, 3);
     return (
         <div>
-            <section className="banner-container items-center mt-16">
+            <section className="banner-container items-center mt-20">
                 <div>
                     <h1 className="text-center text-4xl font-bold brand-color">
                         Google Nest Mini.
@@ -34,14 +35,22 @@ const Home = () => {
                 </video>
             </section>
             <section className="review-container my-10">
-                    <h1 className="brand-color text-5xl text-center">
-                        Customer Review
-                    </h1>
-                    <div className="grid grid-cols-1 md:grid-cols-3 mt-10">
-                        {firstThreeReview.map((review) => (
-                            <Review key={review.id} review={review}></Review>
-                        ))}
-                    </div>
+                <h1 className="brand-color text-5xl text-center">
+                    Customer Review
+                </h1>
+                <div className="grid grid-cols-1 md:grid-cols-3 mt-10">
+                    {firstThreeReview.map((review) => (
+                        <Review key={review.id} review={review}></Review>
+                    ))}
+                </div>
+                <div className="flex justify-center">
+                    <Link
+                        to={"/reviews"}
+                        className="text-blue-700 hover:text-white border border-blue-800 hover:bg-blue-800  focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800"
+                    >
+                        See all Reviews
+                    </Link>
+                </div>
             </section>
         </div>
     );
