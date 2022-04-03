@@ -16,7 +16,9 @@ const Review = ({review}) => {
                 <p className="mt-2 text-gray-600">{comments}</p>
             </div>
             <div className="flex justify-end mt-4">
-                <p className="text-xl font-medium text-indigo-500">{rating}</p>
+                <p className="text-xl font-medium text-indigo-500">
+                    <small>{rating}</small>
+                </p>
             </div>
         </div>
     );
