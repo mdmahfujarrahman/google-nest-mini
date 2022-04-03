@@ -11,8 +11,8 @@ const Header = () => {
                     <CustomLink to="/" className="text-xl">
                         Home
                     </CustomLink>
-                    <CustomLink to="review" className="text-xl">
-                        Review
+                    <CustomLink to="reviews" className="text-xl">
+                        Reviews
                     </CustomLink>
                     <CustomLink to="shop" className="text-xl">
                         Shop

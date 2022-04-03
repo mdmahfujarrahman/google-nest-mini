@@ -1,8 +1,12 @@
 import React from "react";
 import "./Home.css";
 import BackgroundVideo from "../../video/background.mp4";
+import useReviews from "../../hooks/useReviews";
+import Review from "../Review/Review";
 
 const Home = () => {
+    const [reviews, setReviews] = useReviews();
+    const firstThreeReview = reviews.slice(0, 3);
     return (
         <div>
             <section className="banner-container items-center mt-16">
@@ -30,7 +34,12 @@ const Home = () => {
                 </video>
             </section>
             <section className="review-container">
-                
+                <h1>This is review section</h1>
+                <div className="grid grid-cols-1 md:grid-cols-3">
+                    {firstThreeReview.map((review) => (
+                        <Review key={review.id} review={review}></Review>
+                    ))}
+                </div>
             </section>
         </div>
     );
