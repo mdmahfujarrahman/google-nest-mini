@@ -33,13 +33,15 @@ const Home = () => {
                     <source src={BackgroundVideo} type="video/mp4" />
                 </video>
             </section>
-            <section className="review-container">
-                <h1>This is review section</h1>
-                <div className="grid grid-cols-1 md:grid-cols-3">
-                    {firstThreeReview.map((review) => (
-                        <Review key={review.id} review={review}></Review>
-                    ))}
-                </div>
+            <section className="review-container my-10">
+                    <h1 className="brand-color text-5xl text-center">
+                        Customer Review
+                    </h1>
+                    <div className="grid grid-cols-1 md:grid-cols-3 mt-10">
+                        {firstThreeReview.map((review) => (
+                            <Review key={review.id} review={review}></Review>
+                        ))}
+                    </div>
             </section>
         </div>
     );

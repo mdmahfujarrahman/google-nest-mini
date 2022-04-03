@@ -12,8 +12,10 @@ const Review = ({review}) => {
                 />
             </div>
             <div>
-                <h2 className="text-gray-800 text-3xl font-semibold">{name}</h2>
-                <p className="mt-2 text-gray-600">{comments}</p>
+                <h2 className="text-gray-800 text-3xl font-semibold brand-color">
+                    {name}
+                </h2>
+                <p className="mt-2 text-gray-600 brand-color">{comments}</p>
             </div>
             <div className="flex justify-end mt-4">
                 <p className="text-xl font-medium text-indigo-500">
