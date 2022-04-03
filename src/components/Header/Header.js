@@ -8,21 +8,21 @@ const Header = () => {
             <h5 className="text-3xl w-40 font-bold brand-color">Nest Mini</h5>
             <div className="flex justify-between items-center ml-6 w-full">
                 <div className="flex space-x-14">
-                    <CustomLink className="text-xl" to="">
+                    <CustomLink to="/" className="text-xl">
                         Home
                     </CustomLink>
-                    <CustomLink className="text-xl" to="">
+                    <CustomLink to="review" className="text-xl">
                         Review
                     </CustomLink>
-                    <CustomLink className="text-xl" to="">
+                    <CustomLink to="shop" className="text-xl">
                         Shop
                     </CustomLink>
-                    <CustomLink className="text-xl" to="">
-                        Blog
+                    <CustomLink to="blogs" className="text-xl">
+                        Blogs
                     </CustomLink>
                 </div>
                 <div>
-                    <CustomLink className="text-xl" to="">
+                    <CustomLink to="dashboard" className="text-xl">
                         Dashboard
                     </CustomLink>
                 </div>
