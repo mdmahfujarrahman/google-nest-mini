@@ -1,5 +1,4 @@
 import React from "react";
-import "./Blogs.css";
 import QNA from "../../img/qa.png"
 
 const Blogs = () => {

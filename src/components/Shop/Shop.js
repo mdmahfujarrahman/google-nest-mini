@@ -1,5 +1,4 @@
 import React from 'react';
-import './Shop.css'
 import under from '../../img/under.gif'
 
 const Shop = () => {

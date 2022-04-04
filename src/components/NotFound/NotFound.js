@@ -4,7 +4,7 @@ import NotFoundMedia from '../../video/NotFound.mp4'
 const NotFound = () => {
     return (
         <div className="mt-32">
-            <h1 className="text-center text-5xl brand-color">
+            <h1 className="text-center text-5xl brand-color my-4">
                 Hey, where did you take me? <br />{" "}
                 <span className="text-blue-700">
                     I can't see anything here.

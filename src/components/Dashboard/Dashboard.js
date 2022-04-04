@@ -20,7 +20,6 @@ import {
     XAxis,
     YAxis,
 } from "recharts";
-import "./Dashboard.css";
 
 const Dashboard = () => {
     const data = [

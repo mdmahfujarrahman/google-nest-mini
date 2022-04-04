@@ -1,5 +1,4 @@
 import React from "react";
-import "./Home.css";
 import BackgroundVideo from "../../video/background.mp4";
 import useReviews from "../../hooks/useReviews";
 import Review from "../Review/Review";
