@@ -10,6 +10,6 @@ A list of website Features in the project:
 * In [Reviews](https://googlenestmini.netlify.app/reviews) page added customers feedback.
 * In [Blogs](https://googlenestmini.netlify.app/blogs) page added Q&A.
 * In [Dashboard](https://googlenestmini.netlify.app/dashboard) page added product analytics reports.
-* Tailwind CSS Framework has been used as CSS framework.
+* 404 page added.
 * Also used React Router, React Recharts.
-
+* Tailwind CSS Framework has been used as CSS framework.
