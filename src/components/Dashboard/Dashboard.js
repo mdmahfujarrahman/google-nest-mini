@@ -70,7 +70,8 @@ const Dashboard = () => {
     return (
         <div className="mt-36">
             <h5 className="text-center text-4xl brand-color font-semibold my-10">
-                Google Next Mini product analytics reports
+                Google Next Mini{" "}
+                <span className="text-blue-700">product analytics reports</span>
             </h5>
             <div className="grid grid-cols-1 md:grid-cols-2">
                 <div>
