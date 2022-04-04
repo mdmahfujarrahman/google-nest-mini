@@ -1,12 +1,13 @@
 import React from 'react';
 import './Shop.css'
+import under from '../../img/under.gif'
 
 const Shop = () => {
     return (
-        <div>
-          <h2>This is Shop</h2>  
+        <div className="mt-36">
+            <img className="mx-auto rounded-lg" src={under} alt="" />
         </div>
     );
 };
 
-export default Shop;<h2>This is Shop</h2>
+export default Shop;

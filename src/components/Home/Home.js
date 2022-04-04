@@ -28,9 +28,9 @@ const Home = () => {
                         around the house.
                     </p>
                     <div className="flex justify-center my-6 ">
-                        <button className="text-blue-700 hover:text-white border border-blue-800 hover:bg-blue-800  focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800">
+                        <Link to={"/shop"} className="text-blue-700 hover:text-white border border-blue-800 hover:bg-blue-800  focus:outline-none focus:ring-blue-300 font-medium rounded text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800">
                             Buy Now
-                        </button>
+                        </Link>
                     </div>
                 </div>
                 <video className="mx-auto" autoPlay loop muted>

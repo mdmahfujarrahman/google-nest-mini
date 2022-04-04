@@ -7,7 +7,7 @@ const Header = () => {
         <nav className="flex align-center">
             <h5 className="text-3xl w-40 font-bold brand-color">Nest Mini</h5>
             <div className="flex justify-between items-center ml-6 w-full">
-                <div className="flex space-x-14">
+                <div className="flex  space-x-14">
                     <CustomLink to="/" className="text-xl">
                         Home
                     </CustomLink>
