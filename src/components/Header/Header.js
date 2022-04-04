@@ -11,11 +11,11 @@ const Header = () => {
                     <CustomLink to="/" className="text-xl">
                         Home
                     </CustomLink>
-                    <CustomLink to="reviews" className="text-xl">
-                        Reviews
-                    </CustomLink>
                     <CustomLink to="shop" className="text-xl">
                         Shop
+                    </CustomLink>
+                    <CustomLink to="reviews" className="text-xl">
+                        Reviews
                     </CustomLink>
                     <CustomLink to="blogs" className="text-xl">
                         Blogs
